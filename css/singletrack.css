@@ -200,6 +200,7 @@ header nav li a:hover
 	width: 100%;
 	
 	position: relative;
+	z-index: 0;
 }
 
 .cta-wrapper.left {
@@ -216,7 +217,9 @@ header nav li a:hover
 	text-decoration: none;
 }
 
-.cta-wrapper:before {
+.cta-wrapper:before,
+.cta-wrapper:after
+{
 	background-size: cover;
 	background-position: 50% 50%;
 	
@@ -230,27 +233,38 @@ header nav li a:hover
 	right: 0;
 	left: 0;
 	bottom: 0;
-	
-	-webkit-transition: background-color 0.3s ease-in;
-	-moz-transition: background-color 0.3s ease-in;
-	-ms-transition: background-color 0.3s ease-in;
-	-o-transition: background-color 0.3s ease-in;
-	transition: background-color 0.3s ease-in;
+	z-index: 1;
 }
 
-.cta-wrapper.left:before {
+.cta-wrapper:after {
+	opacity: 1;
+	
+	z-index: 2;
+	
+	-webkit-transition: opacity 0.3s ease-in;
+	-moz-transition: opacity 0.3s ease-in;
+	-ms-transition: opacity 0.3s ease-in;
+	-o-transition: opacity 0.3s ease-in;
+	transition: opacity 0.3s ease-in;
+}
+
+.cta-wrapper.left:before,
+.cta-wrapper.left:after
+{
 	left: 40em;
 }
 
-.cta-wrapper.right:before {
+.cta-wrapper.right:before,
+.cta-wrapper.right:after
+{
 	right: 40em;
 }
 
-.cta-wrapper.orange:before {
+.cta-wrapper.orange:after {
 	background-color: rgba(250,167,74, 0.75);
 }
 
-.cta-wrapper.black:before {
+.cta-wrapper.black:after {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -279,7 +293,7 @@ header nav li a:hover
 	box-sizing: border-box;
 	display: block;
 	margin: 0;
-	height: 20em;
+	height: 25em;
 	width: 40em;
 	vertical-align: top;
 }
@@ -296,7 +310,7 @@ header nav li a:hover
 	text-align: center;
 	
 	display: block;
-	height: 1em;
+	margin: 1em 0;
 }
 
 .cta-wrapper .cta .icon sup {
@@ -311,19 +325,17 @@ header nav li a:hover
 }
 
 .cta-wrapper .cta h2 {
-	font-size: 1em;
-	font-weight: 300;
-	line-height: 2;
+	text-align: center;
 	
-	margin: 1em 0;
-}
-
-.cta-wrapper .cta h2 {
-	
+	margin: 2em 0;
 }
 
 .cta-wrapper .cta p {
 	color: #888888;
+	
+	display: block;
+	margin: 2em auto;
+	width: 60%;
 }
 
 
