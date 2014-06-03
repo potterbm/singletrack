@@ -216,12 +216,15 @@ header .logo-image {
 }
 
 .cta-wrapper .cta h2 {
-	color: rgba(255, 255, 255, 0.9);
 	font-size: 1em;
 	font-weight: 300;
 	line-height: 2;
 	
 	margin: 4em 0;
+}
+
+.cta-wrapper .cta.orange h2 {
+	color: rgba(255, 255, 255, 0.9);
 }
 
 
