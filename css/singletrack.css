@@ -29,9 +29,7 @@ h1 {
 	display: block;
 }
 
-.cta-wrapper h1,
-.profile-wrapper h1
-{
+h1.section-title {
 	font-size: 4em;
 	font-weight: 300;
 	text-align: center;
