@@ -218,6 +218,8 @@ header nav li a:hover
 	background-size: cover;
 	background-position: 50% 50%;
 	
+	content: "";
+	
 	display: block;
 	width: auto;
 	
@@ -270,6 +272,7 @@ header nav li a:hover
 	background-color: #ffffff;
 	
 	font-size: 1em;
+	text-align: center;
 	
 	box-sizing: border-box;
 	display: block;
@@ -286,7 +289,7 @@ header nav li a:hover
 .cta-wrapper .cta .icon {
 	color: #faa74a;
 	
-	font-size: 2em;
+	font-size: 4em;
 	line-height: 1;
 	text-align: center;
 	
@@ -311,6 +314,14 @@ header nav li a:hover
 	line-height: 2;
 	
 	margin: 1em 0;
+}
+
+.cta-wrapper .cta h2 {
+	
+}
+
+.cta-wrapper .cta p {
+	color: #888888;
 }
 
 
