@@ -401,13 +401,11 @@ header nav li a:hover
 }
 
 .profile-wrapper .profile {
-	font-size: 2em;
-	
 	box-sizing: border-box;
 	display: inline-block;
-	margin: 2em;
-	height: 10em;
-	width: 10em;
+	margin: 4em;
+	height: 20em;
+	width: 20em;
 }
 
 .profile .profile-image {
@@ -418,8 +416,8 @@ header nav li a:hover
 	display: block;
 	margin: 0 auto;
 	padding: 0;
-	height: 8em;
-	width: 8em;
+	height: 16em;
+	width: 16em;
 }
 
 .profile .profile-image.circle {
@@ -438,11 +436,13 @@ header nav li a:hover
 }
 
 .profile h2 {
-	font-size: 1em;
 	font-weight: 300;
-	line-height: 2;
 	
 	margin: 1em 0;
+}
+
+.profile p {
+	color: #888888;
 }
 
 
