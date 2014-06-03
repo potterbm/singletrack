@@ -195,37 +195,56 @@ header nav li a:hover
 .cta-wrapper {
 	background-color: #ffffff;
 	
-	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+.cta-wrapper.left {
+	text-align: left;
+}
+
+.cta-wrapper.right {
+	text-align: right;
+}
+
+.cta-wrapper:before {
+	background-size: cover;
+	background-position: 50% 50%;
 	
 	display: block;
-	padding: 5em;
+	width: auto;
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.cta-wrapper.left:before {
+	left: 24em;
+}
+
+.cta-wrapper.right:before {
+	right: 24em;
 }
 
 .cta-wrapper .cta {
-	font-size: 2em;
+	background-color: #ffffff;
+	
+	font-size: 1em;
 	text-decoration: none;
 	
 	box-sizing: border-box;
-	display: inline-block;
+	display: block;
 	margin: 2em 0;
-	height: 10em;
-	width: 12em;
+	height: 20em;
+	width: 24em;
 	vertical-align: top;
-	
-	-webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-	-moz-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-	-ms-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-	-o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .cta-wrapper .cta:hover {
 	text-decoration: none;
-}
-
-.cta-wrapper .cta.orange:hover {
-	background-color: #faa74a;
-	color: rgba(255, 255, 255, 0.9);
 }
 
 .cta-wrapper .cta .icon {
