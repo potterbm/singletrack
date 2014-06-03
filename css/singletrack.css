@@ -59,11 +59,14 @@ header {
 header .logo-image {
 	background-image: url("/singletrack/media/singletrack-logo.png");
 	background-size: contain;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
 	
 	display: inline-block;
 	margin: 0;
 	padding: 0;
 	height: 10em;
+	width: 10em;
 }
 
 
@@ -75,6 +78,7 @@ header .logo-image {
 .hero-wrapper {
 	background-position: 50% 50%;
 	background-size: cover;
+	background-repeat: no-repeat;
 	
 	box-sizing: border-box;
 	display: block;
