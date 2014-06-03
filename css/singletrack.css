@@ -29,6 +29,19 @@ h1 {
 	display: block;
 }
 
+.cta-wrapper h1,
+.profile-wrapper h1
+{
+	font-size: 4em;
+	font-weight: 300;
+	text-align: center;
+	
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+
 h2 {
 	color: #181818;
 	
@@ -69,6 +82,44 @@ header .logo-image {
 	padding: 0;
 	height: 8em;
 	width: 8em;
+}
+
+header nav {
+	display: inline-block;
+	
+	position: relative;
+	top: 50%;
+	
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+header nav ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+}
+
+header nav li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header nav li a,
+header nav li a:visited,
+header nav li a:hover
+{
+	color: inherit;
+	
+	font-size: 1em;
+	line-height: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
 }
 
 
@@ -150,16 +201,6 @@ header .logo-image {
 	padding: 5em;
 }
 
-.cta-wrapper .cta-title {
-	font-size: 4em;
-	font-weight: 300;
-	text-align: center;
-	
-	display: block;
-	margin: 0;
-	padding: 0;
-}
-
 .cta-wrapper .cta {
 	font-size: 2em;
 	
@@ -173,45 +214,6 @@ header .logo-image {
 .cta-wrapper .cta.orange {
 	background-color: #faa74a;
 	color: rgba(255, 255, 255, 0.9);
-}
-
-.cta-wrapper .cta.circle {
-	border-radius: 50%;
-	
-	overflow: hidden;
-}
-
-.cta-wrapper .cta.diamond {
-	overflow: hidden;
-	position: relative;
-}
-
-.cta-wrapper .cta.diamond:before,
-.cta-wrapper .cta.diamond:after
-{
-	border: 5em solid #ffffff;
-	border-bottom-color: transparent;
-	
-	content: "";
-	
-	display: block;
-	margin: 0;
-	padding: 0;
-	height: 0;
-	width: 0;
-	
-	position: absolute;
-	top: -5em;
-	left: 50%;
-	margin-left: -5em;
-}
-
-.cta-wrapper .cta.diamond:after {
-	border-bottom-color: #ffffff;
-	border-top-color: transparent;
-	
-	top: auto;
-	bottom: -5em;
 }
 
 .cta-wrapper .cta h2 {
@@ -230,6 +232,21 @@ header .logo-image {
 	margin: 4em 0;
 }
 
+
+
+.profile-wrapper {
+	
+}
+
+.profile-wrapper .profile {
+	font-size: 2em;
+	
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 2em;
+	height: 10em;
+	width: 10em;
+}
 
 .profile-image {
 	background-size: contain;
@@ -264,6 +281,14 @@ header .logo-image {
 
 .profile-image.andria {
 	background-image: url("/singletrack/media/andria-bw.jpg");
+}
+
+.profile-wrapper h2 {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 2;
+	
+	margin: 1em 0;
 }
 
 
