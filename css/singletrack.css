@@ -239,15 +239,12 @@ header nav li a:hover
 }
 
 .cta-wrapper .cta .icon sup {
-	font-size: .5em;
+	font-size: .75em;
 	
 	display: inline-block;
-	height: 1em;
 	vertical-align: text-top;
-}
-
-.cta-wrapper .cta .icon sup sup {
-	font-size: .75em;
+	
+	top: auto;
 }
 
 .cta-wrapper .cta h2 {
