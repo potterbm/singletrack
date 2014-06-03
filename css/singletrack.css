@@ -194,6 +194,9 @@ header nav li a:hover
 
 .cta-wrapper {
 	background-color: #ffffff;
+	color: inherit;
+	
+	text-decoration: none;
 	
 	display: block;
 	width: 100%;
@@ -205,6 +208,12 @@ header nav li a:hover
 
 .cta-wrapper.right {
 	text-align: right;
+}
+
+.cta-wrapper:hover {
+	color: inherit;
+	
+	text-decoration: none;
 }
 
 .cta-wrapper:before {
@@ -263,7 +272,6 @@ header nav li a:hover
 	background-color: #ffffff;
 	
 	font-size: 1em;
-	text-decoration: none;
 	
 	box-sizing: border-box;
 	display: block;
@@ -305,28 +313,6 @@ header nav li a:hover
 	line-height: 2;
 	
 	margin: 1em 0;
-}
-
-.cta-wrapper .cta.orange:hover h2 {
-	color: rgba(255, 255, 255, 0.9);
-}
-
-.cta-wrapper .cta p {
-	
-	display: block;
-	
-	position: relative;
-	top: 100%;
-	
-	-webkit-transition: top 0.3s ease-in-out;
-	-moz-transition: top 0.3s ease-in-out;
-	-ms-transition: top 0.3s ease-in-out;
-	-o-transition: top 0.3s ease-in-out;
-	transition: top 0.3s ease-in-out;
-}
-
-.cta-wrapper .cta:hover p {
-	top: auto;
 }
 
 
