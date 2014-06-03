@@ -158,12 +158,68 @@ header .logo-image {
 }
 
 .cta-wrapper .cta {
-	display: inline-block;
 	box-sizing: border-box;
+	display: inline-block;
 	margin: 2em;
+	height: 10em;
 	width: 10em;
 }
 
+.cta-wrapper .cta.orange {
+	background-color: #faa74a;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.cta-wrapper .cta.diamond {
+	overflow: hidden;
+	position: relative;
+}
+
+.cta-wrapper .cta.diamond:before,
+.cta-wrapper .cta.diamond:after
+{
+	border: 5em solid #ffffff;
+	border-bottom-color: transparent;
+	
+	content: "";
+	
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 0;
+	
+	position: absolute;
+	top: -5em;
+	left: 50%;
+}
+
+.cta-wrapper .cta.diamond:after {
+	border-bottom-color: #ffffff;
+	border-top-color: transparent;
+	
+	top: auto;
+	bottom: -5em;
+}
+
+
+.profile-image {
+	background-size: contain;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.profile-image.diamond {
+	background-size: cover;
+}
+
+.profile-image.drew {
+	background-image: url("/singletrack/media/drew-bw.jpg");
+}
+
+.profile-image.andria {
+	background-image: url("/singletrack/media/andria-bw.jpg");
+}
 
 
 
