@@ -39,12 +39,12 @@ h2 {
 }
 
 strong {
-	font-weight: 800;
+	font-weight: 700;
 }
 
 
 header {
-	background-color: rgba(0 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.75);
 	
 	display: block;
 	margin: 0;
@@ -91,6 +91,14 @@ header {
 	
 	display: block;
 	margin: 0 auto;
+}
+
+.hero-wrapper.orange h1 {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-wrapper.black h1 {
+	color: rgba(255, 255, 255, 0.9);
 }
 
 .hero-wrapper h1:before {
