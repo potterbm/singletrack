@@ -315,7 +315,7 @@ header nav li a:hover
 	overflow: hidden;
 }
 
-.cta .profile-image {
+.profile .profile-image {
 	display: block;
 	margin: 0 auto;
 	padding: 0;
@@ -331,7 +331,7 @@ header nav li a:hover
 	background-image: url("/singletrack/media/andria-bw.jpg");
 }
 
-.profile-wrapper h2 {
+.profile h2 {
 	font-size: 1em;
 	font-weight: 300;
 	line-height: 2;
