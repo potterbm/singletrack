@@ -219,6 +219,12 @@ header nav li a:hover
 	right: 0;
 	left: 0;
 	bottom: 0;
+	
+	-webkit-transition: background-color 0.3s ease-in;
+	-moz-transition: background-color 0.3s ease-in;
+	-ms-transition: background-color 0.3s ease-in;
+	-o-transition: background-color 0.3s ease-in;
+	transition: background-color 0.3s ease-in;
 }
 
 .cta-wrapper.left:before {
@@ -227,6 +233,30 @@ header nav li a:hover
 
 .cta-wrapper.right:before {
 	right: 24em;
+}
+
+.cta-wrapper.orange:before {
+	background-color: rgba(250,167,74, 0.75);
+}
+
+.cta-wrapper.black:before {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cta-wrapper.learn:before {
+	background-image: url("/singletrack/media/school.jpg");
+}
+
+.cta-wrapper.choose:before {
+	background-image: url("/singletrack/media/road.jpg");
+}
+
+.cta-wrapper.call:before {
+	background-image: url("/singletrack/media/phone-booth.jpg");
+}
+
+.cta-wrapper:hover:before {
+	background-color: transparent;
 }
 
 .cta-wrapper .cta {
