@@ -280,8 +280,8 @@ header nav li a:hover
 	background-image: url("/singletrack/media/phone-booth.jpg");
 }
 
-.cta-wrapper:hover:before {
-	background-color: transparent;
+.cta-wrapper:hover:after {
+	opacity: 0;
 }
 
 .cta-wrapper .cta {
@@ -291,7 +291,7 @@ header nav li a:hover
 	text-align: center;
 	
 	box-sizing: border-box;
-	display: block;
+	display: inline-block;
 	margin: 0;
 	height: 25em;
 	width: 40em;
