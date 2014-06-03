@@ -232,13 +232,22 @@ header nav li a:hover
 	
 	font-size: 2em;
 	line-height: 1;
+	text-align: center;
+	
+	display: block;
+	height: 1em;
 }
 
 .cta-wrapper .cta .icon sup {
 	font-size: .5em;
 	
 	display: inline-block;
-	vertical-align: top;
+	height: 1em;
+	vertical-align: text-top;
+}
+
+.cta-wrapper .cta .icon sup sup {
+	font-size: .75em;
 }
 
 .cta-wrapper .cta h2 {
