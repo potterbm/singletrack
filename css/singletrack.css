@@ -53,6 +53,7 @@ h1 {
 	text-align: center;
 	
 	display: block;
+	margin: 0 auto;
 	
 }
 
@@ -84,5 +85,31 @@ h1 {
 .cta-wrapper {
 	background-color: #ffffff;
 	
+	text-align: center;
+	
 	display: block;
+	padding: 5em;
 }
+
+.cta-wrapper .cta-title {
+	text-align: center;
+	
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.cta-wrapper .cta {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 2em;
+	width: 10em;
+}
+
+
+
+
+
+
+
+
