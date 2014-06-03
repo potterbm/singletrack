@@ -231,6 +231,14 @@ header nav li a:hover
 	color: #faa74a;
 	
 	font-size: 2em;
+	line-height: 1;
+}
+
+.cta-wrapper .cta .icon sup {
+	font-size: .5em;
+	
+	display: inline-block;
+	vertical-align: top;
 }
 
 .cta-wrapper .cta h2 {
@@ -241,12 +249,26 @@ header nav li a:hover
 	margin: 1em 0;
 }
 
-.cta-wrapper .cta.orange h2 {
+.cta-wrapper .cta.orange:hover h2 {
 	color: rgba(255, 255, 255, 0.9);
 }
 
-.cta-wrapper .cta.diamond h2 {
-	margin: 4em 0;
+.cta-wrapper .cta p {
+	
+	display: block;
+	
+	position: relative;
+	top: 100%;
+	
+	-webkit-transition: top 0.3s ease-in-out;
+	-moz-transition: top 0.3s ease-in-out;
+	-ms-transition: top 0.3s ease-in-out;
+	-o-transition: top 0.3s ease-in-out;
+	transition: top 0.3s ease-in-out;
+}
+
+.cta-wrapper .cta:hover p {
+	top: auto;
 }
 
 
