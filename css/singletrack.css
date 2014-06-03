@@ -152,6 +152,8 @@ header .logo-image {
 }
 
 .cta-wrapper .cta-title {
+	font-size: 5em;
+	font-weight: 300;
 	text-align: center;
 	
 	display: block;
@@ -205,6 +207,12 @@ header .logo-image {
 	
 	top: auto;
 	bottom: -5em;
+}
+
+.cta-wrapper .cta h2 {
+	font-size: 1em;
+	line-height: 2;
+	margin: 4em 0;
 }
 
 
