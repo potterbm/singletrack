@@ -1,6 +1,51 @@
 
+
+/*
+* Colors:
+* 	#faa74a
+* 	rgb(250,167,74)
+*/
+	
 html, body {
+	background-color: #ffffff;
+	color: #444444;
+	
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	line-height: 1.6;
+}
+
+h1 {
+	color: #181818;
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	line-height: 1.2;
+	
+	display: block;
+}
+
+
+
+.hero-wrapper {
+	display: block;
+	margin: 0;
+	padding: 5em 10%;
+	width: 100%;
+}
+
+.hero-wrapper h1 {
+	text-align: center;
+	
+	display: block;
+	
+}
+
+
+
+.cta-wrapper {
+	background-color: #ffffff;
+	
+	display: block;
 }
