@@ -192,6 +192,7 @@ header .logo-image {
 	position: absolute;
 	top: -5em;
 	left: 50%;
+	margin-left: -5em;
 }
 
 .cta-wrapper .cta.diamond:after {
