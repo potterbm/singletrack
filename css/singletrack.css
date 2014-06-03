@@ -20,7 +20,7 @@ html, body {
 }
 
 h1 {
-	color: #181818;
+	color: #222222;
 	
 	font-family: 'Roboto', sans-serif;
 	font-size: 3em;
@@ -43,7 +43,7 @@ h1 {
 
 
 h2 {
-	color: #181818;
+	color: #222222;
 	
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.4em;
@@ -203,17 +203,32 @@ header nav li a:hover
 
 .cta-wrapper .cta {
 	font-size: 2em;
+	text-decoration: none;
 	
 	box-sizing: border-box;
 	display: inline-block;
-	margin: 2em;
-	height: 10em;
-	width: 10em;
+	margin: 2em 0;
+	height: 12em;
+	width: 12em;
+	
+	-webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+	-moz-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+	-ms-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+	-o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.cta-wrapper .cta.orange {
+.cta-wrapper .cta:hover {
+	text-decoration: none;
+}
+
+.cta-wrapper .cta.orange:hover {
 	background-color: #faa74a;
 	color: rgba(255, 255, 255, 0.9);
+}
+
+.cta-wrapper .cta .icon {
+	color: #faa74a;
 }
 
 .cta-wrapper .cta h2 {
