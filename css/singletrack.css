@@ -351,7 +351,7 @@ header nav li a:hover
 	text-align: center;
 	
 	display: block;
-	margin: .5em 0;
+	margin: .75em 0;
 	
 	-webkit-transition: -webkit-transform 0.3s ease-in;
 	-moz-transition: -moz-transform 0.3s ease-in;
@@ -396,7 +396,7 @@ header nav li a:hover
 
 
 .profile-wrapper {
-	
+	text-align: center;
 }
 
 .profile-wrapper .profile {
@@ -409,26 +409,11 @@ header nav li a:hover
 	width: 10em;
 }
 
-.profile-image {
+.profile .profile-image {
 	background-size: contain;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-}
-
-.profile-image.diamond {
-	background-size: cover;
 	
-	overflow: hidden;
-}
-
-.profile-image.circle {
-	border-radius: 50%;
-	background-size: cover;
-	
-	overflow: hidden;
-}
-
-.profile .profile-image {
 	display: block;
 	margin: 0 auto;
 	padding: 0;
@@ -436,11 +421,18 @@ header nav li a:hover
 	width: 8em;
 }
 
-.profile-image.drew {
+.profile .profile-image.circle {
+	border-radius: 50%;
+	background-size: cover;
+	
+	overflow: hidden;
+}
+
+.profile .profile-image.drew {
 	background-image: url("/singletrack/media/drew-bw.jpg");
 }
 
-.profile-image.andria {
+.profile .profile-image.andria {
 	background-image: url("/singletrack/media/andria-bw.jpg");
 }
 
