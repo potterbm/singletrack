@@ -48,8 +48,49 @@ h2 {
 	font-weight: 500;
 }
 
+p {
+	color: #444444;
+	font-size: 1em;
+	font-weight: 300;
+	
+	display: block;
+	margin: 1em 0;
+}
+
 strong {
 	font-weight: 700;
+}
+
+a.button,
+a.button:visited,
+a.button:hover,
+a.button:active
+{
+	border-radius: .25em;
+	background-color: #faa74a;
+	color: #ffffff;
+	
+	text-decoration: none;
+	
+	display: inline-block;
+	margin: 0;
+	padding: .5em 1em;
+	
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-moz-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+	-o-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+}
+
+a.button:hover {
+	background-color: #faa74a;
+}
+
+a.button.primary-cta {
+	display: block;
+	margin: 0 auto;
+	width: 10em;
 }
 
 
