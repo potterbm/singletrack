@@ -160,6 +160,8 @@ header .logo-image {
 }
 
 .cta-wrapper .cta {
+	font-size: 2em;
+	
 	box-sizing: border-box;
 	display: inline-block;
 	margin: 2em;
