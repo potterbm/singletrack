@@ -208,7 +208,7 @@ header nav li a:hover
 	box-sizing: border-box;
 	display: inline-block;
 	margin: 2em 0;
-	height: 12em;
+	height: 10em;
 	width: 12em;
 	
 	-webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -229,6 +229,8 @@ header nav li a:hover
 
 .cta-wrapper .cta .icon {
 	color: #faa74a;
+	
+	font-size: 2em;
 }
 
 .cta-wrapper .cta h2 {
