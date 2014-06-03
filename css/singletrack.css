@@ -44,11 +44,13 @@ strong {
 
 
 header {
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(40, 40, 40, 0.95);
+	
+	text-align: center;
 	
 	display: block;
 	margin: 0;
-	padding: 0;
+	padding: 1em 0;
 	
 	position: fixed;
 	top: 0;
@@ -66,8 +68,8 @@ header .logo-image {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
-	height: 10em;
-	width: 10em;
+	height: 8em;
+	width: 8em;
 }
 
 
