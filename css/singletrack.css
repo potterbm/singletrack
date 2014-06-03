@@ -41,8 +41,12 @@ h1 {
 	position: relative;
 }
 
-.hero-wrapper .orange {
+.hero-wrapper.orange {
 	background-image: url("/singletrack/media/beach-houses.jpg");
+}
+
+.hero-wrapper.black {
+	background-image: url("/singletrack/media/wood-panel-house.jpg");
 }
 
 .hero-wrapper h1 {
