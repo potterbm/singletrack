@@ -43,6 +43,25 @@ strong {
 }
 
 
+header {
+	background-color: rgba(0 0, 0, 0.75);
+	
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 10em;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+
+#content-wrapper {
+	margin-top: 10em;
+}
+
 
 .hero-wrapper {
 	background-position: 50% 50%;
@@ -51,7 +70,7 @@ strong {
 	box-sizing: border-box;
 	display: block;
 	margin: 0;
-	padding: 10em 10%;
+	padding: 20em 10%;
 	width: 100%;
 	
 	position: relative;
@@ -90,7 +109,7 @@ strong {
 }
 
 .hero-wrapper.orange h1:before {
-	background-color: rgba(250,167,74, 0.5);
+	background-color: rgba(250,167,74, 0.75);
 }
 
 .hero-wrapper.black h1:before {
