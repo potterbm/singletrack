@@ -32,9 +32,10 @@ h1 {
 	background-position: 50% 50%;
 	background-size: cover;
 	
+	box-sizing: border-box;
 	display: block;
 	margin: 0;
-	padding: 5em 10%;
+	padding: 10em 10%;
 	width: 100%;
 	
 	position: relative;
