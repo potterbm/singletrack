@@ -176,6 +176,12 @@ header .logo-image {
 	color: rgba(255, 255, 255, 0.9);
 }
 
+.cta-wrapper .cta.circle {
+	border-radius: 50%;
+	
+	overflow: hidden;
+}
+
 .cta-wrapper .cta.diamond {
 	overflow: hidden;
 	position: relative;
@@ -212,7 +218,9 @@ header .logo-image {
 .cta-wrapper .cta h2 {
 	color: rgba(255, 255, 255, 0.9);
 	font-size: 1em;
+	font-weight: 300;
 	line-height: 2;
+	
 	margin: 4em 0;
 }
 
@@ -225,6 +233,23 @@ header .logo-image {
 
 .profile-image.diamond {
 	background-size: cover;
+	
+	overflow: hidden;
+}
+
+.profile-image.circle {
+	border-radius: 50%;
+	background-size: cover;
+	
+	overflow: hidden;
+}
+
+.cta .profile-image {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	height: 8em;
+	width: 8em;
 }
 
 .profile-image.drew {
