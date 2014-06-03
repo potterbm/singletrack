@@ -36,7 +36,7 @@ h1.section-title {
 	
 	display: block;
 	margin: 0;
-	padding: 0;
+	padding: 1em 0;
 }
 
 
@@ -198,6 +198,8 @@ header nav li a:hover
 	
 	display: block;
 	width: 100%;
+	
+	position: relative;
 }
 
 .cta-wrapper.left {
@@ -237,11 +239,11 @@ header nav li a:hover
 }
 
 .cta-wrapper.left:before {
-	left: 24em;
+	left: 40em;
 }
 
 .cta-wrapper.right:before {
-	right: 24em;
+	right: 40em;
 }
 
 .cta-wrapper.orange:before {
@@ -276,9 +278,9 @@ header nav li a:hover
 	
 	box-sizing: border-box;
 	display: block;
-	margin: 2em 0;
+	margin: 0;
 	height: 20em;
-	width: 24em;
+	width: 40em;
 	vertical-align: top;
 }
 
