@@ -241,13 +241,13 @@ header nav li a:hover
 
 .cta-wrapper .cta .icon sup {
 	font-size: .6em;
-	line-height: 1.25;
+	line-height: 1;
 	
 	display: inline-block;
 	margin: 0 .125em;
 	vertical-align: top;
 	
-	top: auto;
+	top: -.25em;
 }
 
 .cta-wrapper .cta h2 {
