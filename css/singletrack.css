@@ -265,7 +265,7 @@ header nav li a:hover
 }
 
 .cta-wrapper.black:after {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cta-wrapper.learn:before {
@@ -310,7 +310,21 @@ header nav li a:hover
 	text-align: center;
 	
 	display: block;
-	margin: 1em 0;
+	margin: .5em 0;
+	
+	-webkit-transition: -webkit-transform 0.3s ease-in;
+	-moz-transition: -moz-transform 0.3s ease-in;
+	-ms-transition: -ms-transform 0.3s ease-in;
+	-o-transition: -o-transform 0.3s ease-in;
+	transition: transform 0.3s ease-in;
+}
+
+.cta-wrapper .cta:hover .icon {
+	-webkit-transform: translateY(-.125em);
+	-moz-transform: translateY(-.125em);
+	-ms-transform: translateY(-.125em);
+	-o-transform: translateY(-.125em);
+	transform: translateY(-.125em);
 }
 
 .cta-wrapper .cta .icon sup {
