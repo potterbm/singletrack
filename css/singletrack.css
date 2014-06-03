@@ -49,12 +49,21 @@ header {
 	display: block;
 	margin: 0;
 	padding: 0;
-	height: 10em;
 	
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
+}
+
+header .logo-image {
+	background-image: url("/singletrack/media/singletrack-logo.png");
+	background-size: contain;
+	
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	height: 10em;
 }
 
 
