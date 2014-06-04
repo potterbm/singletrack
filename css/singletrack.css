@@ -173,11 +173,6 @@ header nav li a:hover
 }
 
 
-#content-wrapper {
-	margin-top: 8em;
-}
-
-
 .hero-wrapper {
 	background-position: 50% 50%;
 	background-size: cover;
@@ -191,6 +186,10 @@ header nav li a:hover
 	
 	position: relative;
 	z-index: 0;
+}
+
+.hero-wrapper:first-of-type {
+	padding: 24em 10%;
 }
 
 .hero-wrapper.orange {
