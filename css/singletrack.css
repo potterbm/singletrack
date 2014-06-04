@@ -102,9 +102,10 @@ header {
 	display: block;
 	margin: 0;
 	padding: 0;
+	height: 4em;
 	
 	position: fixed;
-	top: 0;
+	top: 2em;
 	left: 0;
 	right: 0;
 	z-index: 50;
@@ -121,6 +122,16 @@ header .logo-image {
 	padding: 0;
 	height: 8em;
 	width: 8em;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
 }
 
 header nav {
