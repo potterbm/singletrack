@@ -404,7 +404,6 @@ header nav li a:hover
 	box-sizing: border-box;
 	display: inline-block;
 	margin: 4em;
-	height: 20em;
 	width: 20em;
 	vertical-align: top;
 }
@@ -417,6 +416,7 @@ header nav li a:hover
 	display: block;
 	margin: 0 auto;
 	padding: 0;
+	height: 16em;
 	width: 16em;
 }
 
