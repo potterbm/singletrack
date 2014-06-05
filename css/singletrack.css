@@ -372,6 +372,7 @@ header nav li a:hover
 }
 
 .cta-wrapper .cta .icon svg {
+	border: 1px solid black;
 	display: inline-block;
 	width: 1em;
 	height: 1em;
