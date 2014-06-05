@@ -344,6 +344,7 @@ header nav li a:hover
 	box-sizing: border-box;
 	display: inline-block;
 	margin: 0;
+	padding-top: 1em;
 	height: 25em;
 	width: 40em;
 	vertical-align: top;
@@ -374,7 +375,7 @@ header nav li a:hover
 .cta-wrapper .cta .icon svg {
 	display: inline-block;
 	width: 2em;
-	height: 2em;
+	height: 1.5em;
 }
 
 .cta-wrapper .cta:hover .icon {
