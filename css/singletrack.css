@@ -479,6 +479,10 @@ header nav li a:hover
 		width: 100%;
 	}
 	
+	.cta-wrapper.right {
+		background-color: #f8f8f8;
+	}
+	
 	.cta-wrapper:before,
 	.cta-wrapper:after
 	{
