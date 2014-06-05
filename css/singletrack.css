@@ -467,8 +467,8 @@ header nav li a:hover
 .stroked {
 	fill: none;
 	
-	stroke-width: .5em;
-	stroke-color: #faa74a;
+	stroke-width: 2;
+	stroke: #faa74a;
 }
 
 /** end of svg styles **/
