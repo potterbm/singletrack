@@ -371,6 +371,12 @@ header nav li a:hover
 	transition: transform 0.15s ease-in;
 }
 
+.cta-wrapper .cta .icon svg {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+}
+
 .cta-wrapper .cta:hover .icon {
 	/*-webkit-transform: translateY(-.25em);
 	-moz-transform: translateY(-.25em);
