@@ -372,11 +372,11 @@ header nav li a:hover
 }
 
 .cta-wrapper .cta:hover .icon {
-	-webkit-transform: translateY(-.125em);
-	-moz-transform: translateY(-.125em);
-	-ms-transform: translateY(-.125em);
-	-o-transform: translateY(-.125em);
-	transform: translateY(-.125em);
+	/*-webkit-transform: translateY(-.25em);
+	-moz-transform: translateY(-.25em);
+	-ms-transform: translateY(-.25em);
+	-o-transform: translateY(-.25em);
+	transform: translateY(-.25em);*/
 }
 
 .cta-wrapper .cta .icon sup {
