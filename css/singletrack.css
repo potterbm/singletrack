@@ -479,6 +479,13 @@ header nav li a:hover
 		width: 100%;
 	}
 	
+	.cta-wrapper:before,
+	.cta-wrapper:after
+	{
+		background-image: none;
+		display: none;
+	}
+	
 	.cta-wrapper .cta {
 		display: block;
 		width: 100%;
@@ -507,6 +514,13 @@ header nav li a:hover
 		position: absolute;
 		right: 0;
 		top: 0;
+	}
+	
+	
+	.profile {
+		display: block;
+		margin: 2em 0;
+		width: 100%;
 	}
 	
 }
