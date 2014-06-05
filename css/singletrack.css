@@ -457,7 +457,44 @@ header nav li a:hover
 
 
 
-
+@media screen and (max-device-width: 640) {
+	
+	.cta-wrapper {
+		display: block;
+		width: 100%;
+	}
+	
+	.cta-wrapper .cta {
+		display: block;
+		width: 100%;
+	}
+	
+	.cta-wrapper .cta .icon {
+		text-align: center;
+		
+		display: block;
+		width: 50%;
+	}
+	
+	.cta-wrapper .cta h2 {
+		text-align: center;
+		
+		display: block;
+		width: 50%;
+	}
+	
+	.cta-wrapper .cta p {
+		box-sizing: border-box;
+		display: block;
+		padding: 2em;
+		width: 50%;
+		
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	
+}
 
 
 
