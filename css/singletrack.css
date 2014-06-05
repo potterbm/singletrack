@@ -361,8 +361,7 @@ header nav li a:hover
 	text-align: center;
 	
 	display: block;
-	margin: .5em 0;
-	margin-top: 1.5em;
+	margin: .125em 0;
 	
 	-webkit-transition: -webkit-transform 0.15s ease-in;
 	-moz-transition: -moz-transform 0.15s ease-in;
@@ -372,10 +371,9 @@ header nav li a:hover
 }
 
 .cta-wrapper .cta .icon svg {
-	border: 1px solid black;
 	display: inline-block;
-	width: 1em;
-	height: 1em;
+	width: 2em;
+	height: 2em;
 }
 
 .cta-wrapper .cta:hover .icon {
