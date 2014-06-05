@@ -361,7 +361,8 @@ header nav li a:hover
 	text-align: center;
 	
 	display: block;
-	margin: .125em 0;
+	margin: 0;
+	margin-top: .25em;
 	
 	-webkit-transition: -webkit-transform 0.15s ease-in;
 	-moz-transition: -moz-transform 0.15s ease-in;
@@ -384,21 +385,10 @@ header nav li a:hover
 	transform: translateY(-.25em);*/
 }
 
-.cta-wrapper .cta .icon sup {
-	font-size: .6em;
-	line-height: 1;
-	
-	display: inline-block;
-	margin: 0 .125em;
-	vertical-align: top;
-	
-	top: -.25em;
-}
-
 .cta-wrapper .cta h2 {
 	text-align: center;
 	
-	margin: 1em 0;
+	margin: .5em 0;
 }
 
 .cta-wrapper .cta p {
