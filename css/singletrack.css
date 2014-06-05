@@ -472,7 +472,7 @@ header nav li a:hover
 
 
 
-@media screen and (max-device-width: 640) {
+@media only screen and (max-device-width: 480px) {
 	
 	.cta-wrapper {
 		display: block;
