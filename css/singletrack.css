@@ -543,4 +543,54 @@ header nav li a:hover
 }
 
 
+@media only screen and (max-width: 480px) {
+	
+	.hero-wrapper.orange {
+		background-image: url("/singletrack/media/beach-houses-mobile.jpg");
+	}
+	
+	.hero-wrapper.black {
+		background-image: url("/singletrack/media/wood-panel-house-mobile.jpg");
+	}
+	
+	.cta-wrapper.learn:before {
+		background-image: url("/singletrack/media/school-mobile.jpg");
+	}
+	
+	.cta-wrapper.choose:before {
+		background-image: url("/singletrack/media/road-mobile.jpg");
+	}
+	
+	.cta-wrapper.call:before {
+		background-image: url("/singletrack/media/phone-booth-mobile.jpg");
+	}
+	
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 1140px) {
+	
+	.hero-wrapper.orange {
+		background-image: url("/singletrack/media/beach-houses-mobile@2x.jpg");
+	}
+	
+	.hero-wrapper.black {
+		background-image: url("/singletrack/media/wood-panel-house-mobile@2x.jpg");
+	}
+	
+	.cta-wrapper.learn:before {
+		background-image: url("/singletrack/media/school-mobile@2x.jpg");
+	}
+	
+	.cta-wrapper.choose:before {
+		background-image: url("/singletrack/media/road-mobile@2x.jpg");
+	}
+	
+	.cta-wrapper.call:before {
+		background-image: url("/singletrack/media/phone-booth-mobile@2x.jpg");
+	}
+	
+}
+
+
 
