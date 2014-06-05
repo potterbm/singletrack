@@ -457,6 +457,25 @@ header nav li a:hover
 
 
 
+
+/** svg styles **/
+
+.filled {
+	fill: #faa74a;
+}
+
+.stroked {
+	fill: none;
+	
+	stroke-width: .5em;
+	stroke-color: #faa74a;
+}
+
+/** end of svg styles **/
+
+
+
+
 @media screen and (max-device-width: 640) {
 	
 	.cta-wrapper {
