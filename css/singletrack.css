@@ -678,9 +678,11 @@ footer nav .icon {
 
 @media only screen and (max-device-width: 480px) {
 	
+	body {
+		font-size: 30px;
+	}
+	
 	header {
-		font-size: 2em;
-		
 		height: auto;
 		
 		position: absolute;
@@ -744,7 +746,7 @@ footer nav .icon {
 	}
 	
 	.cta-wrapper .cta h2 {
-		font-size: 4em;
+		font-size: 2em;
 		line-height: 1;
 		font-weight: 300;
 		text-align: center;
@@ -754,7 +756,6 @@ footer nav .icon {
 	}
 	
 	.cta-wrapper .cta p {
-		font-size: 2em;
 		text-align: left;
 		
 		box-sizing: border-box;
