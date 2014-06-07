@@ -721,6 +721,11 @@ footer nav .icon {
 		width: auto;
 	}
 	
+	header nav a {
+		line-height: 2;
+		height: 2em;
+	}
+	
 	header nav .email,
 	header nav .phone {
 		font-size: 1.5em;
