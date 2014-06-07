@@ -722,8 +722,6 @@ footer nav .icon {
 	}
 	
 	header nav {
-		text-align: left;
-		
 		display: block;
 		padding-left: 45%;
 		width: auto;
@@ -737,7 +735,6 @@ footer nav .icon {
 	header nav .email,
 	header nav .phone {
 		font-size: 1.5em;
-		text-align: center;
 		
 		box-sizing: border-box;
 		margin: 0;
