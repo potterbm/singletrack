@@ -747,6 +747,12 @@ footer nav .icon {
 		padding: 5em 10%;
 	}
 	
+	.hero-wrapper h1 {
+		line-height: 1.25;
+		
+		padding: 1em 0;
+	}
+	
 	
 	
 	.cta-wrapper {
@@ -797,6 +803,10 @@ footer nav .icon {
 		margin: 0 auto;
 		padding: 1em 2em;
 		width: 75%;
+	}
+	
+	.cta-wrapper .button.primary-cta {
+		margin: 2em 0;
 	}
 	
 	
