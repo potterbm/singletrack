@@ -678,6 +678,27 @@ footer nav .icon {
 
 @media only screen and (max-device-width: 480px) {
 	
+	header {
+		font-size: 2em;
+		
+		position: absolute;
+	}
+	
+	header .logo {
+		display: inline-block;
+		width: 40%;
+		
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	
+	header nav {
+		display: block;
+		padding-left: 40%;
+		width: auto;
+	}
+	
 	.cta-wrapper {
 		display: block;
 		width: 100%;
