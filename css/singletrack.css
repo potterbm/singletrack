@@ -464,6 +464,7 @@ header nav li a:hover
 	fill: none;
 	
 	stroke-width: 2;
+	stroke-linejoin: round;
 	stroke: #faa74a;
 }
 
