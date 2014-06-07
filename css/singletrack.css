@@ -555,9 +555,9 @@ header nav a:active {
 
 .info-wrapper .info .icon svg {
 	display: inline-block;
-	margin-bottom: -.75em;
-	width: 3em;
-	height: 3em;
+	margin-bottom: -1em;
+	width: 4em;
+	height: 4em;
 }
 
 .info-wrapper .info h2 {
@@ -572,6 +572,11 @@ header nav a:active {
 
 .info-wrapper .info ul {
 	text-align: left;
+	
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 60%;
 }
 
 .info-wrapper .info li {
