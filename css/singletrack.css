@@ -691,7 +691,10 @@ footer nav .icon {
 	header {
 		height: auto;
 		
-		position: absolute;
+		position: static;
+		top: auto;
+		left: auto;
+		right: auto;
 	}
 	
 	header .logo-image {
@@ -715,6 +718,11 @@ footer nav .icon {
 		display: block;
 		padding-left: 45%;
 		width: auto;
+	}
+	
+	
+	#content-wrapper {
+		margin-top: 0;
 	}
 	
 	
@@ -783,10 +791,20 @@ footer nav .icon {
 	
 	
 	
+	.info-wrapper:first-of-type {
+		margin-top: 0;
+	}
+	
 	.info-wrapper .info {
+		font-size: 1em;
+		
 		display: block;
 		margin: 0 auto;
 		width: 75%;
+	}
+	
+	.info-wrapper .info > p {
+		width: auto;
 	}
 	
 	
