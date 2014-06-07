@@ -2,9 +2,9 @@
 
 Header
 	
-	- Phone number  (303) 941-0191
-	- Email office@singletrackpainting.com
-	- Link to contractor page
+	# Phone number  (303) 941-0191 = 3039410191
+	# Email office@singletrackpainting.com
+	# Link to contractor page
 
 
 
@@ -17,15 +17,15 @@ See our work
 
 Contractors Page
 
-	- Flexibility
-	- Teamwork
-	- Cooperation
+	# Flexibility
+	# Teamwork
+	# Cooperation
 	
-	- Insurance
-	- Safety (training)
-	- PPE (Personal Protection Equipment: hard hats, safety glasses, gloves, steel-toe boots, vest)
+	# Insurance
+	# Safety (training)
+	# PPE (Personal Protection Equipment: hard hats, safety glasses, gloves, steel-toe boots, vest)
 	
-	- Knowledge
+	# Knowledge
 
 
 
@@ -33,9 +33,9 @@ Contractors Page
 
 Learn
 	
-	- Three options
-	- Highlight middle ground
-	- Different ones for interior and exterior
+	# Three options
+	# Highlight middle ground
+	# Different ones for interior and exterior
 	
 	- Recycle paint with GreenSheen
 	- And they recycle
