@@ -739,6 +739,8 @@ footer nav .icon {
 		font-size: 1.5em;
 		text-align: center;
 		
+		box-sizing: border-box;
+		margin: 0;
 		width: 50%;
 	}
 	
