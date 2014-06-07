@@ -541,7 +541,7 @@ header nav a:active {
 }
 
 .info-wrapper .info .icon.number {
-	
+	font-size: 3em;
 }
 
 .info-wrapper .info .icon svg {
