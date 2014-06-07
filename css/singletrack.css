@@ -612,7 +612,7 @@ footer {
 footer nav {
 	display: block;
 	margin: 0;
-	padding: 0;
+	padding: .5em 0;
 }
 
 footer nav a,
