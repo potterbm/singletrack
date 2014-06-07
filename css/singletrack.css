@@ -681,10 +681,12 @@ footer nav .icon {
 	header {
 		font-size: 2em;
 		
+		height: auto;
+		
 		position: absolute;
 	}
 	
-	header .logo {
+	header .logo-image {
 		display: inline-block;
 		width: 40%;
 		
