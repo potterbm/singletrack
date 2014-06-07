@@ -509,6 +509,12 @@ header nav a:active {
 	
 }
 
+.info-wrapper .info .icon svg {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+}
+
 .info-wrapper .info h2 {
 	
 }
