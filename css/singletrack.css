@@ -162,6 +162,7 @@ header .logo-image {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	z-index: 1;
 	
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-moz-transform: translateX(-50%) translateY(-50%);
@@ -207,6 +208,12 @@ header nav a:visited
 	margin: 0 1em;
 	padding: 0 1em;
 	height: 3.2em;
+	
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
 }
 
 header nav a:hover {
