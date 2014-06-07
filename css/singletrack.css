@@ -812,6 +812,10 @@ footer nav .icon {
 		width: 75%;
 	}
 	
+	.cta-wrapper .cta .mobile-center {
+		text-align: center;
+	}
+	
 	.cta-wrapper .button.primary-cta {
 		margin: 2em auto;
 	}
