@@ -410,17 +410,25 @@ header nav a:active {
 	margin: 0;
 	margin-top: .25em;
 	
-	-webkit-transition: -webkit-transform 0.15s ease-in;
-	-moz-transition: -moz-transform 0.15s ease-in;
-	-ms-transition: -ms-transform 0.15s ease-in;
-	-o-transition: -o-transform 0.15s ease-in;
-	transition: transform 0.15s ease-in;
+	-webkit-transition: -webkit-transform 0.3s ease-in;
+	-moz-transition: -moz-transform 0.3s ease-in;
+	-ms-transition: -ms-transform 0.3s ease-in;
+	-o-transition: -o-transform 0.3s ease-in;
+	transition: transform 0.3s ease-in;
 }
 
 .cta-wrapper .cta .icon svg {
 	display: inline-block;
 	width: 2em;
 	height: 1.5em;
+}
+
+.cta-wrapper a.cta:hover .icon {
+	-webkit-transform: translateY(-.25em);
+	-moz-transform: translateY(-.25em);
+	-ms-transform: translateY(-.25em);
+	-o-transform: translateY(-.25em);
+	transform: translateY(-.25em);
 }
 
 .cta-wrapper .cta h2 {
