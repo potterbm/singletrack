@@ -512,8 +512,9 @@ header nav a:active {
 
 .info-wrapper .info .icon svg {
 	display: inline-block;
-	width: 2em;
-	height: 2em;
+	margin-bottom: -.75em;
+	width: 3em;
+	height: 3em;
 }
 
 .info-wrapper .info h2 {
@@ -531,7 +532,8 @@ header nav a:active {
 }
 
 .info-wrapper .info li {
-	
+	font-size: 0.9em;
+	font-weight: 300;
 }
 
 
