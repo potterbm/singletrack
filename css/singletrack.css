@@ -469,11 +469,11 @@ header nav a:active {
 	padding: 4em 12.5%;
 }
 
-.info-wrapper .info > h1 {
+.info-wrapper > h1 {
 	text-align: center;
 }
 
-.info-wrapper .info > p {
+.info-wrapper > p {
 	display: block;
 	margin: 0 auto;
 	padding: 0;
