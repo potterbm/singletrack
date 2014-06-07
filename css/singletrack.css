@@ -689,6 +689,7 @@ footer nav .icon {
 	
 	
 	header {
+		padding-top: 2em;
 		height: auto;
 		
 		position: static;
@@ -718,6 +719,11 @@ footer nav .icon {
 		display: block;
 		padding-left: 45%;
 		width: auto;
+	}
+	
+	header nav .email,
+	header nav .phone {
+		font-size: 1.5em;
 	}
 	
 	
