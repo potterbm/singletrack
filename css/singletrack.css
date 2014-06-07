@@ -184,7 +184,9 @@ header nav + nav {
 	
 }
 
-header nav a {
+header nav a,
+header nav a:visited
+{
 	color: rgba(255, 255, 255, 0.9);
 	
 	font-size: 1.25em;
@@ -207,10 +209,14 @@ header nav a {
 
 header nav a:hover {
 	background-color: rgba(255, 255, 255, 0.3);
+	
+	text-decoration: none;
 }
 
 header nav a:active {
 	background-color: rgba(250,167,74, 0.6);
+	
+	text-decoration: none;
 }
 
 
