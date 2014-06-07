@@ -468,6 +468,10 @@ header nav a:active {
 	vertical-align: top;
 }
 
+.profile-wrapper .section-title ~ .profile {
+	margin-top: 0;
+}
+
 .profile .profile-image {
 	background-size: contain;
 	background-position: 50% 50%;
