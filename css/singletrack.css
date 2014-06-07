@@ -47,7 +47,9 @@ h2 {
 }
 
 p {
-	color: #444444;
+	color: #888888;
+	color: rgba(0, 0, 0, 0.5);
+	
 	font-size: 1em;
 	font-weight: 300;
 	
@@ -437,8 +439,6 @@ header nav a:active {
 }
 
 .cta-wrapper .cta p {
-	color: #888888;
-	
 	display: block;
 	margin: 2em auto;
 	width: 60%;
@@ -490,7 +490,7 @@ header nav a:active {
 }
 
 .profile p {
-	color: #888888;
+	
 }
 
 
@@ -517,8 +517,6 @@ header nav a:active {
 }
 
 .info-wrapper > p {
-	color: #888888;
-	
 	text-align: left;
 	
 	display: block;
@@ -572,8 +570,6 @@ header nav a:active {
 }
 
 .info-wrapper .info p {
-	color: #888888;
-	
 	text-align: left;
 }
 
@@ -587,6 +583,8 @@ header nav a:active {
 }
 
 .info-wrapper .info li {
+	color: rgba(0, 0, 0, 0.6);
+	
 	font-size: 0.9em;
 	font-weight: 300;
 	
