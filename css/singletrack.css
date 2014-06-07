@@ -477,6 +477,8 @@ header nav a:active {
 
 .info-wrapper > h1 {
 	text-align: center;
+	
+	margin-top: 0;
 }
 
 .info-wrapper > p {
