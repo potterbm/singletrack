@@ -30,13 +30,12 @@ h1 {
 }
 
 h1.section-title {
-	font-size: 4em;
 	font-weight: 300;
 	text-align: center;
 	
 	display: block;
 	margin: 0;
-	padding: 1em 0;
+	padding: 2em 0;
 }
 
 
@@ -44,7 +43,7 @@ h2 {
 	color: #222222;
 	
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.4em;
+	font-size: 1.6em;
 	font-weight: 500;
 }
 
@@ -481,8 +480,6 @@ header nav a:active {
 }
 
 .profile h2 {
-	font-weight: 300;
-	
 	margin: 1em 0;
 }
 
