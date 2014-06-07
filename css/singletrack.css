@@ -160,6 +160,8 @@ header nav a {
 	color: rgba(255, 255, 255, 0.9);
 	
 	font-size: 1.25em;
+	font-weight: 400;
+	letter-spacing: 1px;
 	line-height: 3.2;
 	text-decoration: none;
 	
