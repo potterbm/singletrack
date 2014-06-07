@@ -729,6 +729,9 @@ footer nav .icon {
 	header nav .email,
 	header nav .phone {
 		font-size: 1.5em;
+		text-align: center;
+		
+		width: 50%;
 	}
 	
 	
@@ -737,9 +740,13 @@ footer nav .icon {
 	}
 	
 	
-	.hero-wrapper {
-		padding: 6em 10%;
+	
+	.hero-wrapper:first-of-type,
+	.hero-wrapper
+	{
+		padding: 5em 10%;
 	}
+	
 	
 	
 	.cta-wrapper {
