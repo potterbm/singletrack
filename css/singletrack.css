@@ -532,7 +532,8 @@ header nav a:active {
 	box-sizing: border-box;
 	display: inline-block;
 	margin: 2em 0;
-	padding: 0 2em;
+	padding: 2em;
+	padding-top: 0;
 	width: 25%;
 	vertical-align: top;
 }
