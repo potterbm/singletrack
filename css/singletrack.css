@@ -498,7 +498,8 @@ header nav a:active {
 .info-wrapper .info .icon {
 	color: #faa74a;
 	
-	font-size: 3em;
+	font-size: 2em;
+	line-height: 1;
 	
 	display: block;
 	margin: 0;
@@ -511,8 +512,8 @@ header nav a:active {
 
 .info-wrapper .info .icon svg {
 	display: inline-block;
-	width: 1em;
-	height: 1em;
+	width: 2em;
+	height: 2em;
 }
 
 .info-wrapper .info h2 {
