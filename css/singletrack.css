@@ -600,8 +600,6 @@ footer {
 	background-color: rgba(0, 0, 0, 0.9);
 	color: rgba(255, 255, 255, 0.8);
 	
-	font-size: 1.4em;
-	font-weight: 300;
 	text-align: center;
 	
 	display: block;
@@ -618,7 +616,7 @@ footer nav {
 }
 
 footer nav a,
-footer nav a:visited,
+footer nav a:visited
 {
 	color: inherit;
 	
