@@ -604,14 +604,12 @@ footer {
 	display: block;
 	margin: 0;
 	padding: 0;
-	
-	min-height: 4em;
 }
 
 footer nav {
 	display: block;
 	margin: 0;
-	padding: 1em 0;
+	padding: 0;
 }
 
 footer nav a,
@@ -624,11 +622,13 @@ footer nav a:visited
 	text-decoration: none;
 	
 	display: inline-block;
-	margin: 0 .5em;
+	margin: 0;
+	padding: 1em;
 	vertical-align: middle;
 }
 
 footer nav a:hover {
+	background-color: rgba(255, 255, 255, 0.1);
 	color: rgba(255, 255, 255, 1);
 	
 	text-decoration: none;
