@@ -61,6 +61,12 @@ strong {
 	font-weight: 700;
 }
 
+a {
+	color: #faa74a;
+	
+	text-decoration: underline;
+}
+
 a.button,
 a.button:visited,
 a.button:hover,
