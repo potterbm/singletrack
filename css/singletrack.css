@@ -125,14 +125,8 @@ a.active {
 	margin: 2em auto;
 }
 
-.button .icon {
-	font-size: 1em;
-	line-height: inherit;
-	
-	display: inline;
+.button > span {
 	margin-right: .5em;
-	height: auto;
-	width: auto;
 }
 
 
