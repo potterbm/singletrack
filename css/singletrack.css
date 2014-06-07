@@ -475,14 +475,14 @@ header nav a:active {
 	padding: 4em 12.5%;
 }
 
+.info-wrapper:first-of-type {
+	margin-top: 2em;
+}
+
 .info-wrapper > h1 {
 	text-align: center;
 	
 	margin-top: 0;
-}
-
-.info-wrapper:first-of-type > h1 {
-	margin-top: 1em;
 }
 
 .info-wrapper > p {
