@@ -802,13 +802,15 @@ footer nav .icon {
 	
 	
 	
+	.info-wrapper {
+		font-size: 1em;
+	}
+	
 	.info-wrapper:first-of-type {
 		margin-top: 0;
 	}
 	
 	.info-wrapper .info {
-		font-size: 1em;
-		
 		display: block;
 		margin: 0 auto;
 		width: 75%;
