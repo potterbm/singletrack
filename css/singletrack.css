@@ -741,6 +741,7 @@ footer nav .icon {
 	
 	.cta-wrapper .cta {
 		display: block;
+		height: auto;
 		width: 100%;
 	}
 	
@@ -769,7 +770,7 @@ footer nav .icon {
 		display: block;
 		margin: 0 auto;
 		padding: 1em 2em;
-		width: 60%;
+		width: 75%;
 	}
 	
 	
