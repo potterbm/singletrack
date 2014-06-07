@@ -159,13 +159,14 @@ header nav + nav {
 header nav a {
 	color: rgba(255, 255, 255, 0.9);
 	
-	font-size: 1em;
-	line-height: 2;
+	font-size: 1.25em;
+	line-height: 3.2;
 	text-decoration: none;
 	
 	display: inline-block;
 	margin: 0 1em;
-	padding: 1em;
+	padding: 0 1em;
+	height: 3.2em;
 	
 	-webkit-transition: background-color 0.15s ease-in-out;
 	-moz-transition: background-color 0.15s ease-in-out;
