@@ -607,6 +607,21 @@ footer {
 	min-height: 4em;
 }
 
+footer nav {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+footer nav a {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
+footer nav .icon {
+	
+}
+
 
 
 
