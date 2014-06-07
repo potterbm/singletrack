@@ -538,6 +538,8 @@ header nav a:active {
 .info-wrapper .info li {
 	font-size: 0.9em;
 	font-weight: 300;
+	
+	margin: 1em 0;
 }
 
 
