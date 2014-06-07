@@ -135,7 +135,12 @@ header .logo-image {
 }
 
 header nav {
+	text-align: center;
+	
 	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 50%;
 	
 	position: relative;
 	top: 50%;
@@ -147,30 +152,17 @@ header nav {
 	transform: translateY(-50%);
 }
 
-header nav ul {
-	display: block;
-	margin: 0;
-	padding: 0;
-	height: auto;
-	width: auto;
+header nav + nav {
+	
 }
 
-header nav li {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-header nav li a,
-header nav li a:visited,
-header nav li a:hover
-{
-	color: inherit;
+header nav a {
+	color: rgba(255, 255, 255, 0.9);
 	
 	font-size: 1em;
-	line-height: inherit;
-	font-weight: inherit;
-	text-decoration: inherit;
+	text-decoration: none;
 }
+
 
 
 .hero-wrapper {
