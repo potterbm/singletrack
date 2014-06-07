@@ -472,7 +472,7 @@ header nav a:active {
 	
 	display: block;
 	margin: 0;
-	padding: 4em 12.5%;
+	padding: 4em 0;
 }
 
 .info-wrapper:first-of-type {
