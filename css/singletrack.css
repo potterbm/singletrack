@@ -640,7 +640,7 @@ footer nav a:visited
 	color: rgba(255, 255, 255, 0.75);
 	
 	font-size: 1em;
-	font-weight: inherit;
+	font-weight: 300;
 	text-decoration: none;
 	
 	display: inline-block;
