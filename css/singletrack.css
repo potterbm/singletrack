@@ -682,11 +682,11 @@ footer nav .icon {
 	-o-transform-origin: 50% 50%;
 	transform-origin: 50% 50%;
 	
-	-webkit-transform: rotateZ(6deg);
-	-moz-transform: rotateZ(6deg);
-	-ms-transform: rotateZ(6deg);
-	-o-transform: rotateZ(6deg);
-	transform: rotateZ(6deg);
+	-webkit-transform: rotateZ(-6deg);
+	-moz-transform: rotateZ(-6deg);
+	-ms-transform: rotateZ(-6deg);
+	-o-transform: rotateZ(-6deg);
+	transform: rotateZ(-6deg);
 }
 
 /** end of svg styles **/
