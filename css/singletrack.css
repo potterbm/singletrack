@@ -233,6 +233,14 @@ header nav a:active {
 	text-decoration: none;
 }
 
+header nav .email:after {
+	content: "office@singletrackpainting.com";
+}
+
+header nav .phone:after {
+	content: "(303) 941-0191";
+}
+
 
 .hero-wrapper {
 	background-position: 50% 50%;
