@@ -202,7 +202,7 @@ header nav a:visited
 {
 	color: #ffffff;
 	
-	font-size: 1.25em;
+	font-size: 1em;
 	font-weight: 300;
 	letter-spacing: 1px;
 	line-height: 3.2;
@@ -218,6 +218,10 @@ header nav a:visited
 	-ms-transition: none;
 	-o-transition: none;
 	transition: none;
+}
+
+header nav .fa {
+	font-size: 1.2em;
 }
 
 header nav a:hover {
