@@ -235,6 +235,8 @@ header nav a:active {
 
 header nav .icon {
 	font-size: 1.25em;
+	
+	padding: 0 .5em;
 }
 
 
