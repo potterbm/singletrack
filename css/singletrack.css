@@ -471,6 +471,8 @@ header nav .icon {
 }
 
 .profile-wrapper .profile.large {
+	text-align: left;
+	
 	box-sizing: border-box;
 	display: block;
 	margin: 4em;
