@@ -62,6 +62,8 @@ p.center {
 }
 
 strong {
+	color: #222222;
+	
 	font-weight: 700;
 }
 
@@ -476,7 +478,8 @@ header nav .icon {
 	box-sizing: border-box;
 	display: block;
 	margin: 4em;
-	width: auto;
+	width: 80%;
+	max-width: 75em;
 }
 
 .profile-wrapper .profile.large:after {
@@ -523,6 +526,8 @@ header nav .icon {
 
 .profile.large .profile-image {
 	float: left;
+	margin-top: 2em;
+	margin-right: 4em;
 	height: 20em;
 	width: 20em;
 }
