@@ -470,6 +470,24 @@ header nav .icon {
 	text-align: center;
 }
 
+.profile-wrapper .profile.large {
+	box-sizing: border-box;
+	display: block;
+	margin: 4em;
+	width: auto;
+}
+
+.profile-wrapper .profile.large:after {
+	content: "";
+	
+	clear: both;
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	width: 100%;
+}
+
 .profile-wrapper .profile {
 	box-sizing: border-box;
 	display: inline-block;
@@ -499,6 +517,16 @@ header nav .icon {
 	background-size: cover;
 	
 	overflow: hidden;
+}
+
+.profile.large .profile-image {
+	float: left;
+	height: 20em;
+	width: 20em;
+}
+
+.profile .profile-image.drew-andria {
+	background-image: url("/singletrack/media/drew-andria.jpg");
 }
 
 .profile .profile-image.drew {
