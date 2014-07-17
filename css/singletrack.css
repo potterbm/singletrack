@@ -747,6 +747,10 @@ footer nav .icon {
 		font-weight: 300;
 	}
 	
+	h1.section-title {
+		padding-bottom: 0;
+	}
+	
 	p.mobile-center {
 		text-align: center;
 	}
