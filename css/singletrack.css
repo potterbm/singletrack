@@ -62,9 +62,11 @@ p.center {
 }
 
 strong {
-	color: #222222;
-	
 	font-weight: 700;
+}
+
+p strong {
+	color: #222222;
 }
 
 a {
@@ -549,7 +551,7 @@ header nav .icon {
 }
 
 .profile p {
-	
+	margin: 2em 0;
 }
 
 
@@ -883,9 +885,14 @@ footer nav .icon {
 		width: 100%;
 	}
 	
-	.profile-image {
+	.profile .profile-image {
 		float: none;
 		display: block;
+		margin: 0 auto;
+	}
+	
+	.profile h2 {
+		text-align: center;
 	}
 	
 	
