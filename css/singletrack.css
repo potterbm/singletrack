@@ -885,7 +885,7 @@ footer nav .icon {
 		width: 100%;
 	}
 	
-	.profile .profile-image {
+	.profile.large .profile-image {
 		float: none;
 		display: block;
 		margin: 0 auto;
